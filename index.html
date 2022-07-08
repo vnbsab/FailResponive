@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallerie</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="STYLE/style.css">
+</head>
+<body>
+    <!-- hero bloc -->
+    <div id="" class="banner">
+        <nav>
+            <div class="name">dogfinder</div>
+            
+            <ul class="Navigation">
+                <li><a href="#">Menu <i class="fas fa-caret-down"></i></a>
+
+                    <!-- Dropdown -->
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="#">Category</a></li>
+
+                            <!-- Popup bloc -->
+                            <li><a href="#" id="modal-open">Contact</a>
+                                <div id="contact-modal" class="modal">
+                                    <div id="modal-content">
+                                        <div id="modal-header">
+                                            <span class="close-modal">&times;</span>
+                                            <h2>dogfinder</h2>
+                                        </div>
+                                        <div id="modal-body">
+                                            <h3>Send US your email</h3>
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="name"> Name</label>
+                                                    <input type="text" placeholder="Enter Your Name">
+                                                </div>
+                                                
+                                                <div class="form-group">
+                                                    <label for="message">Send e-mail</label>
+                                                    <textarea placeholder="Enter your e-mail"></textarea>
+                                                </div>
+                                                
+                                                <input type="submit" value="Send">
+                                            </form>
+                                        </div>
+                                        <div id="modal-footer">
+                                            <h3>dogfinder &copy; 2021 design by Fongolab  </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                </li>
+                <!-- <li><a href="#Container" onclick="toggleMenu">Our Collection</a></li>
+                <li><a href="#Contact" onclick="toggleMenu">Contact</a></li> -->
+            </ul> 
+        </nav>
+        
+        
+    </div>
+    <!-- hero -->
+    <section id="hero-bloc">
+        <div class="hero-content">
+            <div class="description">
+                <h1>Find the right dog for you</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore harum sint eos facilis eum. </p><br>
+                
+            </div>
+            <div class="imgBx">
+                <img src="Images/10.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Bloc id -->
+    <section id="bloc-id">
+        <div class="bloc-select">
+            <div class="paw">
+                <img src="./Images/dog-care.png" alt="">
+            </div>
+            <p>Dressage</p>
+        </div>
+        <div class="bloc-select">
+            <div class="paw">
+                <img src="./Images/bone-dog.png" alt="">
+            </div>
+            <p>Dog food</p>
+
+        </div>
+
+    </section>
+
+    <!-- Gallery bloc-->
+    <main class="container">
+        <h2>Choose Your Favorite</h2>
+        <div class="image-gallery">
+            <a href="Images/1.jpg" class="img1">
+                <i class="fas fa-expand"></i>
+            </a>
+            <a href="Images/2.jpg" class="img2">
+                <i class="fas fa-expand"></i>
+            </a>
+            <a href="Images/3.jpg" class="img3">
+                <i class="fas fa-expand"></i>
+            </a>
+            <a href="Images/4.jpg" class="img4">
+                <i class="fas fa-expand"></i>
+            </a>
+            <a href="Images/5.jpg" class="img5">
+                <i class="fas fa-expand"></i>
+            </a>
+            <a href="Images/6.jpg" class="img6">
+                <i class="fas fa-expand"></i>
+            </a>
+            <a href="Images/7.jpg" class="img7">
+                <i class="fas fa-expand"></i>
+            </a>
+            <a href="Images/8.jpg" class="img8">
+                <i class="fas fa-expand"></i>
+            </a>
+            <a href="Images/9.jpg" class="img9">
+                <i class="fas fa-expand"></i>
+            </a>
+            <a href="Images/10.jpg" class="img10">
+                <i class="fas fa-expand"></i>
+            </a>
+            <a href="Images/11.jpg" class="img11">
+                <i class="fas fa-expand"></i>
+            </a>
+            <a href="Images/12.jpg" class="img12">
+                <i class="fas fa-expand"></i>
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="foot">
+        <div class="footer">
+            <div class="contact-bloc">
+                <p  ><i class="fab fa-whatsapp"></i> </p>
+                <p  ><i class="fas fa-mobile-alt"></i> </p>
+                <p  ><i class="far fa-envelope"></i> </p>
+            </div>
+            <div class="descript">
+                <p>The curli company was created out of love for our dogs and recognition of a unique and practical design.
+                    Passion and attention to the smallest detail have never gone far in the development and creation of our curli products.</p>
+                <p>We believe that our BEST FRIENDS need the BEST Products!</p>
+            </div>
+            
+        </div>
+        <div id="modal-footer">
+            <h3>dogfinder &copy; 2021 design by Fongolab  </h3>
+        </div>
+    </footer>
+
+
+    <script src="FONCTIONALITY/main.js"></script>
+    
+</body>
+</html>
